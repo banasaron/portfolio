@@ -1,0 +1,99 @@
+.development_title {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+.skills-container{
+    place-items: center;
+    width: 100%;
+}
+.skills-bar-container {
+    width: 100%;
+    min-width: 250px;
+}
+
+.skills-bar-container li {
+    position: relative;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+
+.progressbar-title h3 {
+    font-size: 0.75em;
+    display: inline-block;
+    position: relative;
+    color: #aaa;
+}
+
+.progressbar-title .percent {
+    position: absolute;
+    right: 2px;
+}
+
+
+.bar-container {
+    background: #555;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: -15px;
+}
+
+.bar-container .progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+
+
+.progresstomatoes {
+    background: #95907a;
+    box-shadow: #b7b29c 0 0 20px;
+}
+
+#progress-html, #progress-css, #progress-javascript, #progress-php,
+#progress-wordpress, #progress-bootstrap, #progress-sql,
+#progress-cpp, #progress-python, #progress-git {
+    animation-duration: 2s;
+}
+
+#progress-html { animation-name: progress-html; animation-delay: 0.7s; }
+#progress-css { animation-name: progress-css; animation-delay: 1.4s; }
+#progress-javascript { animation-name: progress-javascript; animation-delay: 2.1s; }
+#progress-bootstrap { animation-name: progress-bootstrap; animation-delay: 2.8s; }
+
+#progress-sql { animation-name: progress-sql; animation-delay: 3.5s; }
+#progress-cpp { animation-name: progress-cpp; animation-delay: 4.2s; }
+#progress-cs { animation-name: progress-cs; animation-delay: 4.9s; }
+#progress-python { animation-name: progress-python; animation-delay: 5.6s; }
+#progress-php { animation-name: progress-php; animation-delay: 6.3s; }
+
+#progress-wordpress { animation-name: progress-wordpress; animation-delay: 7.0s; }
+#progress-api { animation-name: progress-api; animation-delay: 7.7s; }
+#progress-git { animation-name: progress-git; animation-delay: 8.4s; }
+
+
+
+
+@keyframes progress-html { 0% { width: 0%; } 100% { width: 90%; } }
+@keyframes progress-css { 0% { width: 0%; } 100% { width: 80%; } }
+@keyframes progress-javascript { 0% { width: 0%; } 100% { width: 40%; } }
+@keyframes progress-bootstrap { 0% { width: 0%; } 100% { width: 60%; } }
+
+@keyframes progress-sql { 0% { width: 0%; } 100% { width: 35%; } }
+@keyframes progress-cpp { 0% { width: 0%; } 100% { width: 20%; } }
+@keyframes progress-cs { 0% { width: 0%; } 100% { width: 30%; } }
+@keyframes progress-python { 0% { width: 0%; } 100% { width: 40%; } }
+@keyframes progress-php { 0% { width: 0%; } 100% { width: 30%; } }
+
+@keyframes progress-wordpress { 0% { width: 0%; } 100% { width: 70%; } }
+@keyframes progress-api { 0% { width: 0%; } 100% { width: 15%; } }
+@keyframes progress-git { 0% { width: 0%; } 100% { width: 20%; } }

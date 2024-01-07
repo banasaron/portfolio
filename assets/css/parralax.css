@@ -1,0 +1,24 @@
+#par1, #par2, #par3, #par4{
+    width: 100%;
+    height: 45vh; /*wysokosc parralaxu*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 10000px #95907a;
+}
+
+#par1{
+    background-image: url("../images/parralax1.png");
+}
+#par2{
+    background-image: url("../images/parralax2.png");
+}
+#par3{
+    background-image: url("../images/parralax3.png");
+}
+#par4{
+    background-image: url("../images/parralax4.png");
+}

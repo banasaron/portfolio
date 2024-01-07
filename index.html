@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aron Banaś</title>
+    <!--CSS and BOOTSTRAP-->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/writing-animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/parralax.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/progress-bars.css">
+    <link rel="stylesheet" href="fontello-1f981187/css/fontello.css">
+
+
+    <!--WEBSITE ICON-->
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
+</head>
+<body data-language="english">
+   <header class="header" id="nav__bar">
+      <nav class="nav container-nav">
+         <a href="#" class="nav__logo ">
+            <img src="assets/images/signature-white.png">
+         </a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+
+               <li class="nav__item">
+                   <a href="#about__me" class="nav__link">about me</a>
+               </li>
+
+               <li class="nav__item">
+                   <a href="#technologies" class="nav__link">technologies</a>
+               </li>
+
+               <li class="nav__item">
+                   <a href="#portfolio" class="nav__link">portfolio</a>
+               </li>
+
+               <li class="nav__item">
+                   <a href="#contact__me" class="nav__link">contact</a>
+               </li>
+            </ul>
+
+             <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__actions">
+            <div class="nav__language" id="nav-language-polish">
+               <img src="assets/images/polish.png" id="toPolish">
+            </div>
+
+             <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+
+            
+         </div>
+      </nav>
+   </header>
+    
+   <div class="article" id="welcome">
+      <div class="row justify-content-between show-on-scroll m-3">
+         <div class="container-fade tagline col-xxl">
+            <img src="assets/images/me1.jpg" alt="" class="inline-photo show-on-scroll">
+         </div>
+         <div class="content col-sm show-on-scroll" id="home">
+            <span class="heading">
+               <h1>aron banaś</h1>
+               
+                  <div class="typing-demo">
+                    junior <span class="orange">front-end developer</span> 
+                  </div>
+               
+            </span>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="parralax" id="par1"></div><!-----------------------------------------PARRALLAX------------------------------------------------>
+   
+   <section class="d-flex justify-content-center align-items-center block pt-5" id="about__me"> 
+      
+      <div class="container">
+         
+         <div class="row justify-content-center d-flex show-on-scroll text-center">
+            <p class="h4">FEW WORDS ABOUT ME</p>
+            <hr class="hr-dotted"></hr>
+
+               <p class="fs-5 text-justify show-on-scroll show-top mt-5" id="animated-text"></p>
+            
+         </div>
+      </div>
+   </section>
+    
+   <div class="parralax" id="par2"></div><!-----------------------------------------PARRALLAX------------------------------------------------>
+
+
+   <section class="d-flex justify-content-center align-items-center block pt-5" id="technologies">
+      <div class="row justify-content-center" id="boo">
+        <div class="skills-container d-grid">
+         <div class="text-center">
+            <h3 class="development_title">Here is my skill set in the technologies I work with:</h3>
+         </div>
+         
+         
+         <hr class="hr-dotted">
+         <div class="row justify-content-between">
+            <div class="col-md-3 show-on-scroll show-right ">
+               <p class="fs-3 text-uppercase orange">frontend</p>
+               <ul class="skills-bar-container d-flex flex-column list-unstyled mb-5">
+                  <li>
+                     <div class="progressbar-title">                                      
+                        <h3>HTML5</h3>
+                        <span class="percent" id="html-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-html"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>CSS3</h3>
+                        <span class="percent" id="css-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-css"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title"> 
+                        <h3>JavaScript / jQuery</h3>
+                        <span class="percent" id="javascript-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-javascript"></span>
+                     </div>
+                  </li>
+                 
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>Bootstrap</h3>
+                        <span class="percent" id="bootstrap-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-bootstrap"></span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="col-md-3 show-on-scroll show-bottom">
+               <p class="fs-3 text-uppercase orange">backend</p>
+               <ul class="skills-bar-container d-flex flex-column list-unstyled mb-5">
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>SQL / MySQL</h3>
+                        <span class="percent" id="sql-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-sql"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>C++</h3>
+                        <span class="percent" id="cpp-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-cpp"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>C#</h3>
+                        <span class="percent" id="cs-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-cs"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>Python</h3>
+                        <span class="percent" id="python-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-python"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>PHP</h3>
+                        <span class="percent" id="php-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-php"></span>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="col-md-3 show-on-scroll show-left">
+               <p class="fs-3 text-uppercase orange">inne</p>
+               <ul class="skills-bar-container d-flex flex-column list-unstyled mb-5">
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>Wordpress</h3>
+                        <span class="percent" id="wordpress-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-wordpress"></span>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>API</h3>
+                        <span class="percent" id="api-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id="progress-api"></span>
+                     </div>
+                  </li>
+
+                  <li>
+                     <div class="progressbar-title">
+                        <h3>Git</h3>
+                        <span class="percent" id="git-pourcent"></span>
+                     </div>
+                     <div class="bar-container">
+                        <span class="progressbar progresstomatoes" id= "progress-git"></span>
+                     </div>
+                  </li>
+                  
+               </ul>
+            </div>
+         </div>
+        </div>
+      </div>
+   </section>
+
+   <div class="parralax" id="par3"></div><!-----------------------------------------PARRALLAX------------------------------------------------>
+
+  <section class="d-flex justify-content-center align-items-center block pt-5" id="portfolio">
+   
+      <div class="container">
+         <div class="text-center development_title">
+            <h3>These are my projects.</h3>
+         </div>
+         <hr class="hr-dotted-2">
+         <div class="row justify-content-around d-flex">
+
+               <div class="project text-center show-on-scroll show-right" id="project1">
+                  <div class="project-bg">
+                     <p class="h4 fw-medium"><span class="orange">IOS 12</span></p>
+                     <p class="h5 fw-light">HTML, CSS, JS</p>
+                     <p class="h6">
+                        <a href="https://banasaron.github.io/ios12" target="_blank">
+                           <i class="icon-eye"></i>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://github.com/banasaron/ios12" target="_blank">
+                           <i class="icon-github-circled"></i>
+                        </a>
+                     </p>
+                  </div>
+               </div>
+
+               <div class="project text-center show-on-scroll show-left" id="project2">
+                  <div class="project-bg">
+                     <p class="h4 fw-medium"><span class="orange">Typing speed test</span></p>
+                     <p class="h5 fw-light">HTML, CSS, JS</p>
+                     <p class="h6">
+                        <a href="https://banasaron.github.io/typing-speed-test" target="_blank">
+                           <i class="icon-eye"></i>
+                        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="https://github.com/banasaron/typing-speed-test" target="_blank">
+                           <i class="icon-github-circled"></i>
+                        </a>
+                     </p>
+                  </div>
+               </div>
+            
+         </div>
+      </div>
+      
+  </section>
+
+  <div class="parralax" id="par4"></div><!------------------------------------------PARRALLAX------------------------------------------------>
+
+
+  <section class="block footer" id="contact__me">
+   <div class="container">
+      <div class="row justify-content-center show-on-scroll">
+         <div class="col-md-6 text-center d-flex align-items-center flex-column justify-content-around show-on-scroll show-right">
+            <h3>CONTACT INFORMATION:</h3>
+            <div>
+               <i class="icon-mail-alt"></i>
+               <p class="fs-5"><a class="text-white" href="mailto:aronbanas.kontakt@gmail.com">aronbanas.kontakt@gmail.com</a></p>
+            </div>
+            <div>
+               <i class="icon-phone"></i>
+               <p class="fs-5">(+48) 513-767-266</p>
+            </div>
+
+         </div>
+         
+         <div class="col-md-6 show-on-scroll show-left">
+            <h3 class="text-center">CONTACT ME:</h1>
+            <form method="post" action="send-email.php">
+               <div class="form-group">
+                  
+                  <input type="text" class="form-control" id="name" name="name" required placeholder="Name and surname...">
+               </div>
+               <div class="form-group">
+                  
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="Email...">
+               </div>
+               <div class="form-group">
+                  
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Topic... (optional)">
+               </div>
+               <div class="form-group">
+                  
+                  <textarea class="form-control" id="message" rows="4" name="message" placeholder="Message..." required></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary" id="btn">Send</button>
+            </form>
+         </div>
+         
+      </div>
+      
+   </div>
+   <div class="d-grid gap-xxl-5 show-on-scroll show-bottom">
+      <div class="align-items-center justify-content-between d-flex social-media">
+         <div id="fb"></div>
+         <div id="gh"></div>
+      </div>
+      <p class="h6 text-center">Copyright &copy; Aron Banaś 2023</p>
+   </div>
+   
+
+   </section>
+
+    
+  <!--JAVASCRIPT-->
+   <script src="assets/js/jquery-3.7.1.slim.min.js"></script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script>ScrollReveal({ reset: true });</script>
+   <script src="assets/js/main.js"></script>  
+   <script src="assets/js/navbar.js"></script>
+   <script src="assets/js/fade-in.js"></script>
+   <script src="assets/js/hrefs.js"></script>
+   <script src="assets/js/about__me-writing.js"></script>
+</body>
+</html>
