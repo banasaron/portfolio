@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Aron Banaś</title>
     <!--CSS and BOOTSTRAP-->
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/writing-animate.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/navbar.css">
+    <link rel="stylesheet" href="../assets/css/writing-animate.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/parralax.css">
-    <link rel="stylesheet" href="../css/scroll.css">
-    <link rel="stylesheet" href="../css/progress-bars.css">
-    <link rel="stylesheet" href="../../fontello-1f981187/css/fontello.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/parralax.css">
+    <link rel="stylesheet" href="../assets/css/scroll.css">
+    <link rel="stylesheet" href="../assets/css/progress-bars.css">
+    <link rel="stylesheet" href="../fontello-1f981187/css/fontello.css">
 
 
     <!--WEBSITE ICON-->
-    <link rel="icon" href="../icons/favicon.png" type="image/x-icon">
+    <link rel="icon" href="../assets/icons/favicon.png" type="image/x-icon">
 </head>
 <body data-language="polish">
    <header class="header" id="nav__bar">
       <nav class="nav container-nav">
          <a href="#" class="nav__logo ">
-            <img src="../images/signature-white.png">
+            <img src="../assets/images/signature-white.png">
          </a>
 
          <div class="nav__menu" id="nav-menu">
@@ -54,7 +54,7 @@
 
          <div class="nav__actions">
             <div class="nav__language" id="nav-language-polish">
-               <img src="../images/english.png" id="toEnglish">
+               <img src="../assets/images/english.png" id="toEnglish">
             </div>
 
              <!-- Toggle button -->
@@ -70,7 +70,7 @@
    <div class="article" id="welcome">
       <div class="row justify-content-between show-on-scroll m-3">
          <div class="container-fade tagline col-xxl">
-            <img src="../images/me1.jpg" alt="" class="inline-photo show-on-scroll">
+            <img src="../assets/images/me1.jpg" alt="" class="inline-photo show-on-scroll">
          </div>
          <div class="content col-sm show-on-scroll" id="home">
             <span class="heading">
@@ -308,16 +308,12 @@
                <i class="icon-mail-alt"></i>
                <p class="fs-5"><a class="text-white" href="mailto:aronbanas.kontakt@gmail.com">aronbanas.kontakt@gmail.com</a></p>
             </div>
-            <div>
-               <i class="icon-phone"></i>
-               <p class="fs-5">513-767-266</p>
-            </div>
 
          </div>
          
          <div class="col-md-6 show-on-scroll show-left">
             <h3 class="text-center">SKONTAKTUJ SIĘ ZE MNĄ:</h1>
-            <form method="post" action="../../send-email.php">
+            <form action="https://formsubmit.io/send/aronbanas.kontakt@gmail.com" method="POST">
                <div class="form-group">
                   
                   <input type="text" class="form-control" id="name" name="name" required placeholder="Imię i nazwisko...">
@@ -328,13 +324,10 @@
                </div>
                <div class="form-group">
                   
-                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Temat... (opcjonalne)">
-               </div>
-               <div class="form-group">
-                  
                   <textarea class="form-control" id="message" rows="4" name="message" placeholder="Wiadomość..." required></textarea>
                </div>
-               <button type="submit" class="btn btn-primary" id="btn">Wyślij</button>
+               <input type="hidden" name="_redirect" id="name" value="https://banasaron.github.io/portfolio/submit/submit-pl.html">
+               <input class="btn btn-primary" id="btn" value="SEND" type="submit">
             </form>
          </div>
          
@@ -343,10 +336,9 @@
    </div>
    <div class="d-grid gap-xxl-5 show-on-scroll show-bottom">
       <div class="align-items-center justify-content-between d-flex social-media">
-         <div id="fb"></div>
          <div id="gh"></div>
       </div>
-      <p class="h6 text-center">Copyright &copy; Aron Banaś 2023</p>
+      <p class="h6 text-center">Copyright &copy; Aron Banaś 2024</p>
    </div>
    
 
@@ -354,13 +346,13 @@
 
     
   <!--JAVASCRIPT-->
-   <script src="../js/jquery-3.7.1.slim.min.js"></script>
+   <script src="../assets/js/jquery-3.7.1.slim.min.js"></script>
    <script src="https://unpkg.com/scrollreveal"></script>
    <script>ScrollReveal({ reset: true });</script>
-   <script src="../js/main.js"></script>  
-   <script src="../js/navbar.js"></script>
-   <script src="../js/fade-in.js"></script>
-   <script src="../js/hrefs.js"></script>
-   <script src="../js/about__me-writing.js"></script>
+   <script src="../assets/js/main.js"></script>  
+   <script src="../assets/js/navbar.js"></script>
+   <script src="../assets/js/fade-in.js"></script>
+   <script src="../assets/js/hrefs.js"></script>
+   <script src="../assets/js/about__me-writing.js"></script>
 </body>
 </html>
