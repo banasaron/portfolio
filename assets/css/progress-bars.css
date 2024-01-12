@@ -89,9 +89,9 @@
 @keyframes progress-bootstrap { 0% { width: 0%; } 100% { width: 60%; } }
 
 @keyframes progress-sql { 0% { width: 0%; } 100% { width: 35%; } }
-@keyframes progress-cpp { 0% { width: 0%; } 100% { width: 20%; } }
-@keyframes progress-cs { 0% { width: 0%; } 100% { width: 30%; } }
-@keyframes progress-python { 0% { width: 0%; } 100% { width: 40%; } }
+@keyframes progress-cpp { 0% { width: 0%; } 100% { width: 25%; } }
+@keyframes progress-cs { 0% { width: 0%; } 100% { width: 20%; } }
+@keyframes progress-python { 0% { width: 0%; } 100% { width: 20%; } }
 @keyframes progress-php { 0% { width: 0%; } 100% { width: 30%; } }
 
 @keyframes progress-wordpress { 0% { width: 0%; } 100% { width: 70%; } }

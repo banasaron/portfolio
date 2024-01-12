@@ -14,10 +14,10 @@ const lang = {
     "php": "30%",//php
     "wordpress": "70%",//wp
     "bootstrap": "60%",//bs
-    "sql": "35%",//laravel
-    "cpp": "20%",
-    "cs": "30%",
-    "python": "40%",
+    "sql": "35%",
+    "cpp": "25%",
+    "cs": "20%",
+    "python": "20%",
     "git": "20%",
     "api": "15%"
 };
