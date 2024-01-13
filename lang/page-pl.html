@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="../assets/css/progress-bars.css">
     <link rel="stylesheet" href="../fontello-1f981187/css/fontello.css">
 
+    <!--SCRIPTS-->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!--WEBSITE ICON-->
     <link rel="icon" href="../assets/icons/favicon.png" type="image/x-icon">
@@ -313,17 +315,20 @@
          
          <div class="col-md-6 show-on-scroll show-left">
             <h3 class="text-center">SKONTAKTUJ SIĘ ZE MNĄ:</h1>
-            <form action="https://formsubmit.co/4cea96ebc9e4d35890c6d72ed0766e89" method="POST">
-               
+            <form action="#">
+
                <div class="form-group">
-                  
+                  <input type="text" class="form-control" id="name" name="name" required placeholder="Imię i nazwisko...">
+               </div>
+
+               <div class="form-group">
                   <input type="email" class="form-control" id="email" name="email" required placeholder="Email...">
                </div>
+
                <div class="form-group">
                   
                   <textarea class="form-control" id="message" rows="4" name="message" placeholder="Wiadomość..." required></textarea>
                </div>
-               <input type="hidden" name="_next" value="https://banasaron.github.io/portfolio/submit/submit-pl.html">
                <input class="btn btn-primary" id="btn" value="SEND" type="submit">
             </form>
          </div>
@@ -343,6 +348,7 @@
 
     
   <!--JAVASCRIPT-->
+  
    <script src="../assets/js/jquery-3.7.1.slim.min.js"></script>
    <script src="https://unpkg.com/scrollreveal"></script>
    <script>ScrollReveal({ reset: true });</script>
@@ -351,5 +357,7 @@
    <script src="../assets/js/fade-in.js"></script>
    <script src="../assets/js/hrefs.js"></script>
    <script src="../assets/js/about__me-writing.js"></script>
+   <script src="../assets/js/email.js"></script>
+   
 </body>
 </html>
