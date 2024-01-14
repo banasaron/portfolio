@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="../assets/css/scroll.css">
     <link rel="stylesheet" href="../assets/css/progress-bars.css">
     <link rel="stylesheet" href="../fontello-1f981187/css/fontello.css">
+    <link rel="stylesheet" href="../assets/css/expanding-divs.css">
 
     <!--SCRIPTS-->
    <script src="https://smtpjs.com/v3/smtp.js"></script>
+   <script src="https://kit.fontawesome.com/042171530a.js" crossorigin="anonymous"></script>
 
     <!--WEBSITE ICON-->
     <link rel="icon" href="../assets/icons/favicon.png" type="image/x-icon">
@@ -94,14 +96,49 @@
       
       <div class="container">
          
-         <div class="row justify-content-center d-flex show-on-scroll text-center">
-            <p class="h4">KILKA SŁOW O MNIE</p>
+         <div class="row justify-content-center d-flex show-on-scroll text-center" id="height-animation">
+            <p class="h4">KILKA SŁÓW O MNIE</p>
             <hr class="hr-dotted"></hr>
 
-               <p class="fs-5 text-justify show-on-scroll show-top mt-5" id="animated-text">
-                  
-               </p>
-            
+            <p class="fs-5 show-on-scroll show-top mt-5" id="animated-text"></p>
+            <div class="row justify-content-evenly expanding-container">
+               <div class="section-item-wrapper">
+                  <div class="section is--collapsed">
+                    <div class="section-item">
+                      <button id="section-title" aria-expanded="false" aria-controls="section-content" class="section-item-title">
+                        Języki
+                        <i class="section-item-title-icon fas fa-chevron-down"></i>
+                      </button>
+                      <div id="section-content" role="region" tabindex="-1" aria-labelledby="section-title" class="section-item-content" aria-hidden="true">
+                         <span>
+                           <p><b>Angielski</b> - B1</p>
+                           <p><b>Niemiecki</b> - komunikatywny</p>
+                           <p><b>Norweski</b> - początkujący</p>
+                         </span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="section-item-wrapper">
+               <div class="section is--collapsed">
+                 <div class="section-item">
+                   <button id="section-title" aria-expanded="false" aria-controls="section-content" class="section-item-title">
+                     Osiągnięcia
+                     <i class="section-item-title-icon fas fa-chevron-down"></i>
+                   </button>
+                   <div id="section-content" role="region" tabindex="-1" aria-labelledby="section-title" class="section-item-content" aria-hidden="true">
+                      <span style="font-size: 0.7em;">
+                        <p><b>Staż</b> z projektu "Bliżej pracodawcy"</p>
+                        <p><b>Kursy</b> (strony internetowe i grafika komputerowa) z projektu "Bliżej pracodawcy"</p>
+                        <p><b>CodeWeek</b> - prowadzenie lekcji praktycznych dla klas pierwszych o tematyce Javascript</p>
+                        <p><b>μElektra</b> - 3. miejsce w Szkolnym Festiwalu Talentów Technicznych 2023</p>
+                      </span>
+                   </div>
+                 </div>
+             </div>
+           </div>
+            </div>
+               
          </div>
       </div>
    </section>
@@ -329,7 +366,7 @@
                   
                   <textarea class="form-control" id="message" rows="4" name="message" placeholder="Wiadomość..." required></textarea>
                </div>
-               <input class="btn btn-primary" id="btn" value="SEND" type="submit">
+               <input class="btn btn-primary" id="btn" value="WYŚLIJ" type="submit">
             </form>
          </div>
          
@@ -358,6 +395,7 @@
    <script src="../assets/js/hrefs.js"></script>
    <script src="../assets/js/about__me-writing.js"></script>
    <script src="../assets/js/email.js"></script>
+   <script src="../assets/js/expanding-divs.js"></script>
    
 </body>
 </html>

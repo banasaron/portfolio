@@ -10,7 +10,7 @@ addEventListener('scroll' , function() {
 const lang = {
     "html": "90%",//html
     "css": "80%",//css
-    "javascript": "40%",//js
+    "javascript": "35%",//js
     "php": "30%",//php
     "wordpress": "70%",//wp
     "bootstrap": "60%",//bs

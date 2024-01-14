@@ -53,6 +53,9 @@ a {
     text-decoration: none !important;
     color: var(--nr1);
 }
+textarea{
+    resize: none;
+}
 
 .nav__logo img{
     max-width: 100px;
@@ -276,4 +279,26 @@ i.icon-mail-alt + p, i.icon-phone + p{
 }
 p#animated-text{
     width: 1000px;
+    min-height: 440px; /*do zmiany*/
+    max-height: 1100px; /*do zmiany*/
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    text-align: center;
+}
+.expanding{
+    background-color: red;
+    width: 250px;
+    height: 70px;
+}
+.expanding-container{
+    width: 80%;
+    height: 470px;
+}
+@media(max-width: 990px){
+    .expanding-container{
+        height: 900px;
+    }
+    .section-item-wrapper{
+        height: 0;
+    }
 }

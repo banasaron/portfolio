@@ -113,6 +113,11 @@
 .nav__language > *{
   width: 50px;
   height: 20px;
+  cursor: pointer;
+  transition: transform .2s ease-in-out;
+}
+.nav__language > *:hover{
+  transform: scale(1.2);
 }
 
 .nav__list .nav__item .nav__link{

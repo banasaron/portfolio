@@ -85,7 +85,7 @@
 
 @keyframes progress-html { 0% { width: 0%; } 100% { width: 90%; } }
 @keyframes progress-css { 0% { width: 0%; } 100% { width: 80%; } }
-@keyframes progress-javascript { 0% { width: 0%; } 100% { width: 40%; } }
+@keyframes progress-javascript { 0% { width: 0%; } 100% { width: 35%; } }
 @keyframes progress-bootstrap { 0% { width: 0%; } 100% { width: 60%; } }
 
 @keyframes progress-sql { 0% { width: 0%; } 100% { width: 35%; } }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animacja zmiany wysokości</title>
+  <style>
+    .container {
+      overflow: hidden;
+      width: 200px;
+      background-color: lightblue;
+      margin: 10px;
+    }
+
+    .content {
+      transition: max-height 0.5s ease;
+      max-height: 500px; /* Ustaw wysoką wartość maksymalną */
+      padding: 10px; /* Dodatkowy padding dla lepszego efektu */
+      box-sizing: border-box; /* Zapobiega zwiększaniu rzeczywistej wysokości przez padding */
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/042171530a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="exampleContainer" class="container">
+  <div id="exampleContent" class="content">
+    <p>Animowany tekst.</p>
+  </div>
+  <i class="fa-solid fa-chevron-up"></i>
+</div>
+
+<button onclick="toggleHeight()">Zmień wysokość</button>
+
+<script>
+  function toggleHeight() {
+    var content = document.getElementById("exampleContent");
+
+    // Zmiana maksymalnej wysokości na wartość różną od zera (jeśli aktualnie jest zero) lub na zero
+    content.style.maxHeight = content.style.maxHeight === "0px" ? "500px" : "0";
+  }
+</script>
+
+</body>
+</html>
