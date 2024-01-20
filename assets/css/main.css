@@ -273,6 +273,12 @@ i.icon-mail-alt + p, i.icon-phone + p{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#project3{
+    background-image: url("../images/project_3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .hr-dotted-2{
     border: dashed;
     width: 100%;
